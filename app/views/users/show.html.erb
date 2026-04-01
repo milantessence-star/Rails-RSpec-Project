@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<h1>User Profile</h1>
+
+<div>
+  <label for="user_name_display">Name</label>
+  <input type="text" id="user_name_display" value="<%= @user.name %>" disabled name="Name">
+</div>
+
+<p>Email: <%= @user.email %></p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
