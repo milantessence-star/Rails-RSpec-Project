@@ -69,4 +69,4 @@ end
 
 gem "devise"
 
-gem "kaminari"
+gem "pundit"
